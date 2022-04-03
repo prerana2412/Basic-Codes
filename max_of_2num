@@ -1,0 +1,27 @@
+## Maximum of two numbers using if_else loop
+
+a = 5
+b = 9
+
+if a>b:
+   print('a is greater')
+else:
+   print('b is greater')
+   
+   output=
+   b is greater
+   
+   
+
+## using ternary operator
+
+a = int(input('Enter first number:'))
+b = int(input('Enter second number:'))
+
+max = a if a>b else b
+print('Maximum number is:',max)
+
+output=
+Enter first number:20
+Enter second number:5
+Maximum number is: 20
