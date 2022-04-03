@@ -1,0 +1,19 @@
+# If i want to print word n times
+
+n = int(input('How many times u want to print the number:'))
+name = input('Enter the string:')
+i = 0
+while (i<=n ):
+    print(" ",name)
+    i += 1
+    
+    
+    
+output:     How many times u want to print the number:5
+Enter the string:om
+  om
+  om
+  om
+  om
+  om
+  om
