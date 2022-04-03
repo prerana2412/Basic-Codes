@@ -1,0 +1,32 @@
+## Addition of two numbers using function
+
+def add(a, b):
+    sum = a+b
+    return sum
+n1 = 55
+n2 = 45
+print('the addition is:',add(n1,n2))
+
+output=
+the addition is: 100
+
+
+## Addition of two numbers using function taking input from user.
+
+def add(a,b): #function declaration
+    sum = a+b
+    return sum
+
+
+n1 = int(input('Enter first number:')) # input from user num1
+n2 = int(input('Enter second number:')) #input from user num2
+
+print('addition of a and b is:',add(n1,n2)) #call of function
+
+output=
+Enter first number:20
+Enter second number:50
+addition of a and b is: 70
+
+
+
