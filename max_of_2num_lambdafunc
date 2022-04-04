@@ -1,0 +1,12 @@
+# maximum of two numbers using lambda function
+
+a = int(input('Enter the first number:'))
+b = int(input('Enter the second number:'))
+
+max = lambda a,b :a if a>b else b
+print(max(a,b),'is a maximum number')
+
+output=
+Enter the first number:25
+Enter the second number:10
+25 is a maximum number
